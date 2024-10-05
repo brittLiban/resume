@@ -1,0 +1,42 @@
+/* Overall styling for header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Left side of the header (email, phone) */
+.left p {
+    margin: 0;
+}
+
+/* Center section for name */
+.center {
+    text-align: center;
+}
+
+/* Right side (LinkedIn, GitHub) */
+.right a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: blue;
+}
+
+.right a:hover {
+    text-decoration: underline;
+}
+
+/* Adjusting section styles */
+section {
+    margin-bottom: 20px;
+    
+}
+
+h1 {
+    margin: 0;
+}
+
+span {
+    font-weight: bolder;
+}
