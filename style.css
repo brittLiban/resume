@@ -1,0 +1,75 @@
+/* Overall styling for header */
+body {
+    font-family: "Times New Roman", Georgia, Garamond, serif;
+    font-size: 12pt;
+    line-height: 1.5;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #000;
+}
+
+
+#topHeader{
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+.enabler {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+
+/* Left side of the header (email, phone) */
+.left p{
+    margin: 0;
+}
+
+/* Center section for name */
+.center {
+    text-align: center;
+}
+
+/* Right side (LinkedIn, GitHub) */
+.right a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: blue;
+}
+
+.right a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    margin: 0px 0px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.secondLiner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+   
+    list-style-position: inside; 
+}
+
+p{
+    margin: 0.2rem;
+}
+
+.two-columns li {
+    margin-bottom: 0.2rem; /* Adds spacing between list items */
+    
+}
