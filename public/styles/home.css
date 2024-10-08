@@ -81,6 +81,12 @@ p{
 }
 
 .two-columns li {
-    margin-bottom: 0.2rem; /* Adds spacing between list items */
+    margin-bottom: 0.4rem; /* Adds spacing between list items */
     
 }
+
+#space-li{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
